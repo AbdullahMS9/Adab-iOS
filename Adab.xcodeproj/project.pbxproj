@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EA3C60E2B820797002CF2AC /* AdabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C60D2B820797002CF2AC /* AdabApp.swift */; };
+		8EA3C6102B820797002CF2AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C60F2B820797002CF2AC /* ContentView.swift */; };
+		8EA3C6122B820798002CF2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3C6112B820798002CF2AC /* Assets.xcassets */; };
+		8EA3C6152B820798002CF2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3C6142B820798002CF2AC /* Preview Assets.xcassets */; };
+		8EA3C61F2B820798002CF2AC /* AdabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C61E2B820798002CF2AC /* AdabTests.swift */; };
+		8EA3C6292B820798002CF2AC /* AdabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C6282B820798002CF2AC /* AdabUITests.swift */; };
+		8EA3C62B2B820798002CF2AC /* AdabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3C62A2B820798002CF2AC /* AdabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EA3C61B2B820798002CF2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EA3C6022B820797002CF2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA3C6092B820797002CF2AC;
+			remoteInfo = Adab;
+		};
+		8EA3C6252B820798002CF2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EA3C6022B820797002CF2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA3C6092B820797002CF2AC;
+			remoteInfo = Adab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EA3C60A2B820797002CF2AC /* Adab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA3C60D2B820797002CF2AC /* AdabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdabApp.swift; sourceTree = "<group>"; };
+		8EA3C60F2B820797002CF2AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EA3C6112B820798002CF2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA3C6142B820798002CF2AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EA3C61A2B820798002CF2AC /* AdabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA3C61E2B820798002CF2AC /* AdabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdabTests.swift; sourceTree = "<group>"; };
+		8EA3C6242B820798002CF2AC /* AdabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA3C6282B820798002CF2AC /* AdabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdabUITests.swift; sourceTree = "<group>"; };
+		8EA3C62A2B820798002CF2AC /* AdabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EA3C6072B820797002CF2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA3C6172B820798002CF2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA3C6212B820798002CF2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EA3C6012B820797002CF2AC = {
+			isa = PBXGroup;
+			children = (
+				8EA3C60C2B820797002CF2AC /* Adab */,
+				8EA3C61D2B820798002CF2AC /* AdabTests */,
+				8EA3C6272B820798002CF2AC /* AdabUITests */,
+				8EA3C60B2B820797002CF2AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EA3C60B2B820797002CF2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EA3C60A2B820797002CF2AC /* Adab.app */,
+				8EA3C61A2B820798002CF2AC /* AdabTests.xctest */,
+				8EA3C6242B820798002CF2AC /* AdabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA3C60C2B820797002CF2AC /* Adab */ = {
+			isa = PBXGroup;
+			children = (
+				8EA3C60D2B820797002CF2AC /* AdabApp.swift */,
+				8EA3C60F2B820797002CF2AC /* ContentView.swift */,
+				8EA3C6112B820798002CF2AC /* Assets.xcassets */,
+				8EA3C6132B820798002CF2AC /* Preview Content */,
+			);
+			path = Adab;
+			sourceTree = "<group>";
+		};
+		8EA3C6132B820798002CF2AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EA3C6142B820798002CF2AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EA3C61D2B820798002CF2AC /* AdabTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EA3C61E2B820798002CF2AC /* AdabTests.swift */,
+			);
+			path = AdabTests;
+			sourceTree = "<group>";
+		};
+		8EA3C6272B820798002CF2AC /* AdabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EA3C6282B820798002CF2AC /* AdabUITests.swift */,
+				8EA3C62A2B820798002CF2AC /* AdabUITestsLaunchTests.swift */,
+			);
+			path = AdabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EA3C6092B820797002CF2AC /* Adab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA3C62E2B820798002CF2AC /* Build configuration list for PBXNativeTarget "Adab" */;
+			buildPhases = (
+				8EA3C6062B820797002CF2AC /* Sources */,
+				8EA3C6072B820797002CF2AC /* Frameworks */,
+				8EA3C6082B820797002CF2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adab;
+			productName = Adab;
+			productReference = 8EA3C60A2B820797002CF2AC /* Adab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EA3C6192B820798002CF2AC /* AdabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA3C6312B820798002CF2AC /* Build configuration list for PBXNativeTarget "AdabTests" */;
+			buildPhases = (
+				8EA3C6162B820798002CF2AC /* Sources */,
+				8EA3C6172B820798002CF2AC /* Frameworks */,
+				8EA3C6182B820798002CF2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EA3C61C2B820798002CF2AC /* PBXTargetDependency */,
+			);
+			name = AdabTests;
+			productName = AdabTests;
+			productReference = 8EA3C61A2B820798002CF2AC /* AdabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EA3C6232B820798002CF2AC /* AdabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA3C6342B820798002CF2AC /* Build configuration list for PBXNativeTarget "AdabUITests" */;
+			buildPhases = (
+				8EA3C6202B820798002CF2AC /* Sources */,
+				8EA3C6212B820798002CF2AC /* Frameworks */,
+				8EA3C6222B820798002CF2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EA3C6262B820798002CF2AC /* PBXTargetDependency */,
+			);
+			name = AdabUITests;
+			productName = AdabUITests;
+			productReference = 8EA3C6242B820798002CF2AC /* AdabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EA3C6022B820797002CF2AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8EA3C6092B820797002CF2AC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8EA3C6192B820798002CF2AC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8EA3C6092B820797002CF2AC;
+					};
+					8EA3C6232B820798002CF2AC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8EA3C6092B820797002CF2AC;
+					};
+				};
+			};
+			buildConfigurationList = 8EA3C6052B820797002CF2AC /* Build configuration list for PBXProject "Adab" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EA3C6012B820797002CF2AC;
+			productRefGroup = 8EA3C60B2B820797002CF2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA3C6092B820797002CF2AC /* Adab */,
+				8EA3C6192B820798002CF2AC /* AdabTests */,
+				8EA3C6232B820798002CF2AC /* AdabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EA3C6082B820797002CF2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA3C6152B820798002CF2AC /* Preview Assets.xcassets in Resources */,
+				8EA3C6122B820798002CF2AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA3C6182B820798002CF2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA3C6222B820798002CF2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EA3C6062B820797002CF2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA3C6102B820797002CF2AC /* ContentView.swift in Sources */,
+				8EA3C60E2B820797002CF2AC /* AdabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA3C6162B820798002CF2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA3C61F2B820798002CF2AC /* AdabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA3C6202B820798002CF2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA3C62B2B820798002CF2AC /* AdabUITestsLaunchTests.swift in Sources */,
+				8EA3C6292B820798002CF2AC /* AdabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EA3C61C2B820798002CF2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EA3C6092B820797002CF2AC /* Adab */;
+			targetProxy = 8EA3C61B2B820798002CF2AC /* PBXContainerItemProxy */;
+		};
+		8EA3C6262B820798002CF2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EA3C6092B820797002CF2AC /* Adab */;
+			targetProxy = 8EA3C6252B820798002CF2AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EA3C62C2B820798002CF2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EA3C62D2B820798002CF2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EA3C62F2B820798002CF2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Adab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bajaber.Adab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EA3C6302B820798002CF2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Adab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bajaber.Adab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EA3C6322B820798002CF2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bajaber.AdabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adab.app/Adab";
+			};
+			name = Debug;
+		};
+		8EA3C6332B820798002CF2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bajaber.AdabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adab.app/Adab";
+			};
+			name = Release;
+		};
+		8EA3C6352B820798002CF2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bajaber.AdabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adab;
+			};
+			name = Debug;
+		};
+		8EA3C6362B820798002CF2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bajaber.AdabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EA3C6052B820797002CF2AC /* Build configuration list for PBXProject "Adab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA3C62C2B820798002CF2AC /* Debug */,
+				8EA3C62D2B820798002CF2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA3C62E2B820798002CF2AC /* Build configuration list for PBXNativeTarget "Adab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA3C62F2B820798002CF2AC /* Debug */,
+				8EA3C6302B820798002CF2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA3C6312B820798002CF2AC /* Build configuration list for PBXNativeTarget "AdabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA3C6322B820798002CF2AC /* Debug */,
+				8EA3C6332B820798002CF2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA3C6342B820798002CF2AC /* Build configuration list for PBXNativeTarget "AdabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA3C6352B820798002CF2AC /* Debug */,
+				8EA3C6362B820798002CF2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EA3C6022B820797002CF2AC /* Project object */;
+}
