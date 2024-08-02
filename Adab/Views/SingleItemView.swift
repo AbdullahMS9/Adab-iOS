@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SingleItemView: View {
     var body: some View {
+        let item: ToDoListItem
+        
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
